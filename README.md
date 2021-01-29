@@ -1,10 +1,10 @@
 ---
 description: >-
-  Understanding how GitBook implements variants and versioning within GitBook
-  spaces.
+  Slug is now 1.0.0: Understanding how GitBook implements variants and
+  versioning within GitBook spaces.
 ---
 
-# Spaces v1.0.0
+# Spaces v1.0.0-master
 
 ### GitBook Spaces
 
