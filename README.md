@@ -47,3 +47,20 @@ It is doubtful that there is a need to create a Repo/Space or a new variant for 
 
 GitBook by default likes to merge a space's _main_ variant to the master branch of a repo. There is currently a reported bug by GitBook that does not allow this behavior to be changed unless a variant is added by the author. GitBook does not have a proposed date to release a bug fix.
 
+### Conclusion
+
+Using the GitBook online editor is the path GitBook is trying to convince authors as the best path. In fact, they have deprecated their CLI which allowed some level of local development. The use of the online editor is proprietary but is very useful. 
+
+There are other complex issues with regards to two-way syncing should both the online editor and remote pushes to the repo be made. These can be managed however by understanding GItBook/GitHub integration.
+
+* Do not merge branches.
+* The master branch supports the main variant.
+* Do not merge variant branches with each other or with the master.
+* Remote git pushing should be made to the proper variant branch, they will sync automatically in the online editor.
+
+This can result in a lot of merge activity on each branch if the GitBook online author merges with every change. The best practice is to save work and only merge when needed. Of course, this could be problematic should docs save by GitBook somehow get lost.
+
+#### 
+
+
+
