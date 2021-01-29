@@ -4,9 +4,9 @@ description: >-
   within GitBook spaces.
 ---
 
-# Spaces v1.0.1
+# Spaces
 
-### GitBook Spaces
+### GitBook Spaces 
 
 A GitBook Space is a set of documents that create a Book. A GitBook Space and Book are synonymous. 
 
@@ -16,7 +16,7 @@ Spaces can have **variants** such as different languages or semantic versions us
 
 Each variant lives on its own branch and as such merging branches as a traditional operation is not recommended within a GitHub Repo. 
 
-GitBook creates a single variant named _main_ when a space is created. This variant is merged to the repo's master branch. It is hidden in GitBook until a new variant is added by an author. The new variant will be pushed to a branch in the repo using the variant's slug as the branch name.
+GitBook creates a single variant named _main_ when upon space creation. This variant is merged to the repo's master branch. It is hidden in GitBook until a new variant is added by an author. The new variant will be pushed to a branch in the repo using the variant's slug as the branch name.
 
 It should be noted that each time a variant is created it will go live \(available to users\) once the variant is merged with its GitHub repo's branch. GitBook does not allow the disabling of a variant during its development to hide it from users. For _minor_ \(and _patch_\) semantic release changes this is not an issue since the variant can be quickly implemented. This is not possible for _major_ release changes 
 
@@ -33,7 +33,7 @@ Consider the following GitHub Repos which are in turn related to independent Git
 
 Some would argue the same should hold true for _minor_ semantic changes. 
 
-| Version |  |  |
+| Version | GitHub Repo | GitBook Space |
 | :--- | :--- | :--- |
 | v1.0.0 | owner/using-gitbook-v1.0.0 | using-gitbook-v1.0.0 |
 | v1.1.0 | owner/using-gitbook-v1.1.0 | using-gitbook-v1.1.0 |
