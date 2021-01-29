@@ -1,7 +1,7 @@
 ---
 description: >-
-  Understanding how GitBook implements variants and versioning within GitBook
-  spaces.
+  MainVariant: Understanding how GitBook implements variants and versioning
+  within GitBook spaces.
 ---
 
 # Spaces v1.0.1
