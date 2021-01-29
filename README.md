@@ -4,7 +4,7 @@ description: >-
   spaces.
 ---
 
-# Spaces
+# Spaces v1.0.0
 
 ### GitBook Spaces
 
