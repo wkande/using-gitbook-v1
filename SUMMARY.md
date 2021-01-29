@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Spaces v1.0.0-master](README.md)
 
